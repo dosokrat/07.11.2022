@@ -1,0 +1,55 @@
+/* Напишите цикл, который принимает на вход два числа (A и B) 
+и возводит число A в натуральную степень B.*/
+
+
+/*
+int ReadInt(string message)
+{
+    Console.WriteLine(message);
+    return Convert.ToInt32(Console.ReadLine());
+}
+int A = ReadInt("Введите число A: ");
+int B = ReadInt("Введите число B: ");
+ToDegree(A,B);
+
+void ToDegree(int a, int b)
+{
+    int result = 1;
+    for (int i = 1; i <= b; i++)
+    {
+        result = result * a;
+    }
+    Console.WriteLine($"Число {a} возведенное в степень {b} = {result}");
+}
+*/
+/*
+Напишите программу, которая принимает на вход число 
+и выдаёт сумму цифр в числе.
+*/
+
+/*
+Console.WriteLine("Введите число: ");
+
+ int a = int.Parse(Console.ReadLine());
+            int s = 0;
+            while (a > 0)
+            {
+                 s = s + a % 10;
+                a = a /10 ;
+             }
+ Console.WriteLine($"Сумма чисел введенного числа равняется {s}");
+*/
+/*
+Напишите программу, которая задаёт массив из 8 
+элементов и выводит их на экран.
+*/
+
+
+int[] arr = Console.ReadLine()
+                .Split(' ', ',', StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
+Console.WriteLine(string.Join(", ", arr));
+
+
+     
